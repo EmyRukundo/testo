@@ -1,12 +1,17 @@
 import styles from '../styles/Layouts.module.css';
+import Nav from './Nav';
+import Header from './Header';
 
  const Layouts = ({children}) => {
     return (
-        <div className={styles.container}>
+      <Nav>
+            <div className={styles.container}>
             <main className={styles.main}>
+                <Header/>
               {children}
             </main>
         </div>
+      </Nav>
     )
 }
 export default Layouts
