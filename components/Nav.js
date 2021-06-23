@@ -7,10 +7,10 @@ const Nav = () => {
         <div className={navStyles.nav}>
             <ul>
                 <li>
-                    <Link href="/">Home</Link>
+                    <Link href='/'>Home</Link>
                 </li>
                 <li>
-                    <Link href="/about">About</Link>
+                    <Link href='/about'>About</Link>
                 </li>
             </ul>
             
@@ -18,4 +18,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default Nav;
